@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyBot", "Andy\EmptyBot\EmptyBot.csproj", "{CEE4235F-8D6B-4474-BC20-7345D62143D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Andy", "Andy\EmptyBot\Andy.csproj", "{CEE4235F-8D6B-4474-BC20-7345D62143D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoBot", "Andy\EchoBot\EchoBot.csproj", "{BF0A8564-8F56-4F49-82EA-EC2A32DA9B23}"
 EndProject
