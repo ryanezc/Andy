@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Schema;
 
-namespace EmptyBot
+namespace AndyBot
 {
     /// <summary>
     /// Represents a bot that processes incoming activities.
@@ -18,12 +18,12 @@ namespace EmptyBot
     /// <see cref="IStatePropertyAccessor{T}"/> object are created with a singleton lifetime.
     /// </summary>
     /// <seealso cref="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1"/>
-    public class EmptyBotBot : IBot
+    public class AndyBotBot : IBot
     {
         /// <summary>
         /// Initializes a new instance of the class.
         /// </summary>                        
-        public EmptyBotBot()
+        public AndyBotBot()
         {
         }
 

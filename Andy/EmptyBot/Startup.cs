@@ -11,7 +11,7 @@ using Microsoft.Bot.Connector.Authentication;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace EmptyBot
+namespace AndyBot
 {
     /// <summary>
     /// The Startup class configures services and the request pipeline.
@@ -46,7 +46,7 @@ namespace EmptyBot
         /// <seealso cref="https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0"/>
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddBot<EmptyBotBot>(options =>
+            services.AddBot<AndyBotBot>(options =>
            {
                var secretKey = Configuration.GetSection("botFileSecret")?.Value;
 
